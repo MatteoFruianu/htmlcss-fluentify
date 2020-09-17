@@ -7,7 +7,7 @@
 
 body {
   font-size: 16px;
-  color: #6399cf;
+  color: #808080;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -15,6 +15,12 @@ body {
 .container {
   width: 1100px;
   margin: auto;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: black;
 }
 
 /* UTILITIES */
@@ -33,7 +39,10 @@ body {
   padding: 5px 10px;
   display: inline-block;
   min-width: 100px;
+  color: white;
   text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
   line-height: 20px;
   border-radius: 5px;
 }
@@ -43,23 +52,42 @@ body {
   border: none;
 }
 
+.btn-large {
+  padding: 20px;
+}
+
 .list-inline li {
   display: inline-block;
   padding: 0 5px;
-}:
+}
 
 .list-inline li:first-child {
-padding-left: 0;
+  padding-left: 0;
 }
 
 .list-inline li:last-child {
   padding-right: 0px;
 }
 
+.w-50 {
+  width: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
 /* nav-bar */
+.main-header {
+  background: #0c325a;
+  height: 561px;
+  background-image: url('../img/background-header.png');
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
 
 .nav-bar {
-  background: #0c325a;
   line-height: 80px;
 }
 
@@ -84,4 +112,28 @@ padding-left: 0;
 
 .nav-bar .nav-right {
   width: 40%;
+}
+
+/* jumbotron */
+.jumbotron {
+  height: 480px;
+  position: relative;
+}
+
+.jumbotron-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.jumbotron-text h1 {
+  margin-bottom: 40px;
+  font-size: 46px;
+  color: #fff;
+}
+
+.efficiency {
+  padding: 40px 15px;
+  background-color: #d3d3d3;
 }
