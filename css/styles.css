@@ -1,0 +1,87 @@
+/* GENERAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #6399cf;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* LAYOUT */
+.container {
+  width: 1100px;
+  margin: auto;
+}
+
+/* UTILITIES */
+.float-left {
+  float: left;
+}
+
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.button {
+  border: 1px solid white;
+  padding: 5px 10px;
+  display: inline-block;
+  min-width: 100px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 5px;
+}
+
+.btn-green {
+  background: #7cbb02;
+  border: none;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0 5px;
+}:
+
+.list-inline li:first-child {
+padding-left: 0;
+}
+
+.list-inline li:last-child {
+  padding-right: 0px;
+}
+
+/* nav-bar */
+
+.nav-bar {
+  background: #0c325a;
+  line-height: 80px;
+}
+
+.nav-bar .nav-logo {
+  width: 15%;
+}
+
+.nav-bar .nav-logo img {
+  vertical-align: middle;
+}
+
+.nav-bar ul a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.nav-bar .nav-center {
+  width: 45%;
+}
+
+.nav-bar .nav-right {
+  width: 40%;
+}
