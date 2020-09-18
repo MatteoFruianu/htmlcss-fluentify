@@ -128,12 +128,11 @@ h2.big {
 
 .nav-bar ul li a:not(.button):hover {
   background: #b0c0d0;
-  padding: 8px;
-  border-radius: 5px;
 }
 
+
 .nav-bar ul li a:focus {
-  color: red;
+  color:red;
 }
 
 
@@ -239,10 +238,14 @@ footer {
   padding: 0 5px;
 }
 
-footer .select {
-  border-bottom: 1px solid grey;
+.level-select label:first-child {
+  margin-right: 20px;
 }
 
-footer .select i {
-  padding-left: 40px;
+select {
+  border: none;
+  border-bottom: 1px solid grey;
+  background: #d3d3d3;
+  font-size: 16px;
+  color: #808080;
 }
